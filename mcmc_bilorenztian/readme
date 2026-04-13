@@ -1,0 +1,11 @@
+This package will simulate the odmr spectra of NV centers. The simulator if given a set of global parameters will generate an ODMR spectra and if given a series of temperature values
+will produce simulated spectra using the global constants. 
+
+The helper function contains the basic setup for a simulation including the basis set and collapse operators 
+
+
+The odmrsimulator takes in the helper function and sets 
+
+# - D_MHz is used in D_of_T by default. Use D_rad_s or gamma_nv if you add Zeeman in rad/s when accounting for magnetic field.
+# - E_rad_s is stored in rad/s; NV_ODMR converts as needed to MHz to match other terms.
+# - the global constants will be called in autonomous model
