@@ -1,0 +1,2 @@
+parameter,mean,std,median,ci_lower,ci_upper,ci_level,ess,n_samples
+T,317.98206429,0.81565341,317.98327571,316.40650298,319.60490017,0.95,785.8,2000
